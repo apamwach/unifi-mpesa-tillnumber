@@ -1,0 +1,170 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ddf2da025a8c5a10a7052ebe7e309c05",
+    "packages": [
+        {
+            "name": "art-of-wifi/unifi-api-client",
+            "version": "v1.1.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Art-of-WiFi/UniFi-API-client.git",
+                "reference": "ccea0eee99347fed52dec799765f634f53567059"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Art-of-WiFi/UniFi-API-client/zipball/ccea0eee99347fed52dec799765f634f53567059",
+                "reference": "ccea0eee99347fed52dec799765f634f53567059",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "UniFi_API\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Art of WiFi",
+                    "email": "info@artofowifi.net",
+                    "homepage": "http://artofwifi.net"
+                }
+            ],
+            "description": "API client class for use with Ubiquiti's UniFi controller",
+            "homepage": "https://github.com/Art-of-WiFi/UniFi-API-client",
+            "keywords": [
+                "UBNT",
+                "api",
+                "client",
+                "controller",
+                "ubiquiti",
+                "unifi"
+            ],
+            "time": "2018-04-11T05:50:49+00:00"
+        },
+        {
+            "name": "infobip/infobip-api-php-client",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/infobip/infobip-api-php-client.git",
+                "reference": "ff0985c6f84a06cf8546747ad8d05cc8b93a53e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/infobip/infobip-api-php-client/zipball/ff0985c6f84a06cf8546747ad8d05cc8b93a53e2",
+                "reference": "ff0985c6f84a06cf8546747ad8d05cc8b93a53e2",
+                "shasum": ""
+            },
+            "require": {
+                "netresearch/jsonmapper": "0.9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "infobip\\": "infobip/",
+                    "infobip\\api\\": "infobip/api/",
+                    "infobip\\api\\client\\": "infobip/api/client/",
+                    "infobip\\api\\configuration\\": "infobip/api/configuration/",
+                    "infobip\\api\\model\\": "infobip/api/model/",
+                    "infobip\\api\\model\\account\\": "infobip/api/model/account/",
+                    "infobip\\api\\model\\conversion\\": "infobip/api/model/conversion/",
+                    "infobip\\api\\model\\nc\\": "infobip/api/model/nc/",
+                    "infobip\\api\\model\\nc\\logs\\": "infobip/api/model/nc/logs/",
+                    "infobip\\api\\model\\nc\\notify\\": "infobip/api/model/nc/notify/",
+                    "infobip\\api\\model\\nc\\query\\": "infobip/api/model/nc/query/",
+                    "infobip\\api\\model\\sms\\": "infobip/api/model/sms/",
+                    "infobip\\api\\model\\sms\\mo\\": "infobip/api/model/sms/mo/",
+                    "infobip\\api\\model\\sms\\mo\\logs\\": "infobip/api/model/sms/mo/logs/",
+                    "infobip\\api\\model\\sms\\mo\\reports\\": "infobip/api/model/sms/mo/reports/",
+                    "infobip\\api\\model\\sms\\mt\\": "infobip/api/model/sms/mt/",
+                    "infobip\\api\\model\\sms\\mt\\bulks\\": "infobip/api/model/sms/mt/bulks/",
+                    "infobip\\api\\model\\sms\\mt\\bulks\\status\\": "infobip/api/model/sms/mt/bulks/status/",
+                    "infobip\\api\\model\\sms\\mt\\logs\\": "infobip/api/model/sms/mt/logs/",
+                    "infobip\\api\\model\\sms\\mt\\reports\\": "infobip/api/model/sms/mt/reports/",
+                    "infobip\\api\\model\\sms\\mt\\send\\": "infobip/api/model/sms/mt/send/",
+                    "infobip\\api\\model\\sms\\mt\\send\\binary\\": "infobip/api/model/sms/mt/send/binary/",
+                    "infobip\\api\\model\\sms\\mt\\send\\preview\\": "infobip/api/model/sms/mt/send/preview/",
+                    "infobip\\api\\model\\sms\\mt\\send\\textual\\": "infobip/api/model/sms/mt/send/textual/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "email": "libraries@infobip.com"
+                }
+            ],
+            "description": "Infobip SMS library for PHP",
+            "homepage": "http://dev.infobip.com",
+            "keywords": [
+                "Infobip",
+                "api",
+                "hlr",
+                "msisdn",
+                "sms"
+            ],
+            "time": "2018-03-09T11:02:21+00:00"
+        },
+        {
+            "name": "netresearch/jsonmapper",
+            "version": "v0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweiske/jsonmapper.git",
+                "reference": "1c3803fa6d1be7bd083fb853f1c6af56f96d1833"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweiske/jsonmapper/zipball/1c3803fa6d1be7bd083fb853f1c6af56f96d1833",
+                "reference": "1c3803fa6d1be7bd083fb853f1c6af56f96d1833",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.2.*",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Weiske",
+                    "email": "christian.weiske@netresearch.de",
+                    "homepage": "http://www.netresearch.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Map nested JSON structures onto PHP classes",
+            "time": "2015-08-14T14:07:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
