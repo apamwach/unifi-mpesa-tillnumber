@@ -1,2 +1,2 @@
-# Ubiquiti Unifi M-PESA Tilnumber integration
+# Ubiquiti Unifi M-PESA Tillnumber integration
 Safaricom M-PESA Till Number payment integration for Ubiquiti unifi hotspot
